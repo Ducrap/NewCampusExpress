@@ -282,8 +282,8 @@ CMakeFiles/CampusExpress_autogen.dir/clean:
 # Target rules for target src/core/CMakeFiles/CoreModule.dir
 
 # All Build rule for target.
-src/core/CMakeFiles/CoreModule.dir/all: src/core/CMakeFiles/CoreModule_autogen_timestamp_deps.dir/all
 src/core/CMakeFiles/CoreModule.dir/all: src/core/CMakeFiles/CoreModule_autogen.dir/all
+src/core/CMakeFiles/CoreModule.dir/all: src/core/CMakeFiles/CoreModule_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f src\core\CMakeFiles\CoreModule.dir\build.make src/core/CMakeFiles/CoreModule.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\core\CMakeFiles\CoreModule.dir\build.make src/core/CMakeFiles/CoreModule.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=7,8,9,10,11,12,13 "Built target CoreModule"
@@ -380,8 +380,8 @@ src/core/CMakeFiles/CoreModule_autogen.dir/clean:
 
 # All Build rule for target.
 src/pickup/CMakeFiles/PickupModule.dir/all: src/core/CMakeFiles/CoreModule.dir/all
-src/pickup/CMakeFiles/PickupModule.dir/all: src/pickup/CMakeFiles/PickupModule_autogen_timestamp_deps.dir/all
 src/pickup/CMakeFiles/PickupModule.dir/all: src/pickup/CMakeFiles/PickupModule_autogen.dir/all
+src/pickup/CMakeFiles/PickupModule.dir/all: src/pickup/CMakeFiles/PickupModule_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f src\pickup\CMakeFiles\PickupModule.dir\build.make src/pickup/CMakeFiles/PickupModule.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\pickup\CMakeFiles\PickupModule.dir\build.make src/pickup/CMakeFiles/PickupModule.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=22,23,24,25,26 "Built target PickupModule"

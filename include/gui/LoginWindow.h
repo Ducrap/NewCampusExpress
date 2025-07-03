@@ -10,11 +10,7 @@
 #include <QLabel>
 #include <QCheckBox>
 #include <QTimer>
-
-enum class UserType {
-    STUDENT,
-    STAFF
-};
+#include "../core/UserType.h"
 
 QT_BEGIN_NAMESPACE
 class QLineEdit;

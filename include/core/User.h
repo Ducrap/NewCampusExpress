@@ -3,11 +3,7 @@
 
 #include <string>
 #include <stdexcept>
-
-enum class UserType {
-    STUDENT,
-    STAFF
-};
+#include "UserType.h"
 
 class User {
 public:

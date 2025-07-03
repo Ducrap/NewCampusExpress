@@ -147,7 +147,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "CoreModule::@0618756b1ff51bca1a0e",
-					"jsonFile" : "target-CoreModule-Debug-6227a58d196a002e176a.json",
+					"jsonFile" : "target-CoreModule-Debug-5ae46b0c19b9e4936f04.json",
 					"name" : "CoreModule",
 					"projectIndex" : 0
 				},
@@ -189,7 +189,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "PickupModule::@77c1efa2f5e0269b2c76",
-					"jsonFile" : "target-PickupModule-Debug-3c743d43b77ce39ae767.json",
+					"jsonFile" : "target-PickupModule-Debug-a9e46147466d6b04f914.json",
 					"name" : "PickupModule",
 					"projectIndex" : 0
 				},

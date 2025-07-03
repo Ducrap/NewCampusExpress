@@ -49,6 +49,7 @@ add_subdirectory(src/gui)
 # 主可执行文件（必须先定义）
 add_executable(${PROJECT_NAME} WIN32
     src/main.cpp
+    ${UI_FILES}
 )
 
 # 处理UI和资源文件
@@ -56,11 +57,6 @@ qt_wrap_ui(UI_FILES
     src/gui/LoginWindow.ui
     src/gui/UserWindow.ui
     src/gui/StaffWindow.ui
-)
-
-qt_add_resources(QRC_FILES
-    resources/icons.qrc
-    resources/styles.qrc
 )
 
 # 添加UI和资源文件到可执行目标
