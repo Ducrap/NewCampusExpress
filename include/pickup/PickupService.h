@@ -1,39 +1,38 @@
-// include/pickup/PickupService.h
-#pragma once
-#include "../core/Package.h"
-#include <functional>
+#ifndef PICKUPSERVICE_H
+#define PICKUPSERVICE_H
 
-namespace CampusExpress {
-namespace Pickup {
+#include "Package.h"
+#include "DatabaseConnector.h"
+#include <string>
+#include <optional>
 
-class IPickupService {
+class PickupService {
 public:
-    virtual ~IPickupService() = default;
+    explicit PickupService(DatabaseConnector& dbConnector);
     
-    // 请求取件
-    virtual bool requestPickup(const std::string& trackingNumber,
-                             const std::string& userId,
-                             bool isUrgent,
-                             std::function<void(bool)> callback) = 0;
+    // 预约取件
+    bool schedulePickup(const std::string& trackingNumber, const std::string& userPhone, bool isUrgent);
     
-    // 查询队列状态
-    struct QueueStatus {
-        size_t waitingCount;
-        size_t processingCount;
-        size_t estimatedWaitTime; // 秒
-    };
+    // 查询快递位置
+    std::optional<std::string> queryPackageLocation(const std::string& trackingNumber);
     
-    virtual QueueStatus getQueueStatus() const = 0;
+    // 完成取件
+    bool completePickup(const std::string& trackingNumber);
     
-    // 事件通知
-    using StatusUpdateCallback = std::function<void(QueueStatus)>;
-    virtual void setStatusUpdateCallback(StatusUpdateCallback callback) = 0;
+    // 获取用户的所有快递
+    std::vector<Package> getUserPackages(const std::string& userPhone);
+    
+    // 取消取件预约
+    bool cancelPickup(const std::string& trackingNumber);
+
+private:
+    DatabaseConnector& dbConnector;
+    
+    // 从数据库加载快递信息
+    std::optional<Package> loadPackageFromDB(const std::string& trackingNumber);
+    
+    // 更新数据库中的快递状态
+    bool updatePackageInDB(const Package& package);
 };
 
-// 创建具体实现
-std::unique_ptr<IPickupService> createPickupService(
-    IDatabaseConnector& dbConnector,
-    IAVLTreeManager& packageManager);
-
-} // namespace Pickup
-} // namespace CampusExpress
+#endif // PICKUPSERVICE_H
