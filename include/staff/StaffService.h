@@ -1,50 +1,64 @@
-// include/staff/StaffService.h
-#pragma once
-#include "../core/User.h"
-#include "../core/Package.h"
+#ifndef STAFFSERVICE_H
+#define STAFFSERVICE_H
+
+#include "PackageManager.h"
+#include "UserManager.h"
 #include <string>
-#include <memory>
-#include <optional>
 #include <vector>
 
-// Forward declaration for dependencies
-namespace CampusExpress {
-struct PackageInfo;
-struct UserInfo;
-class IDatabaseConnector;
-class IAVLTreeManager;
-}
-
-namespace CampusExpress {
-namespace Staff {
-
-class IStaffService {
+class StaffService {
 public:
-    virtual ~IStaffService() = default;
+    StaffService(DatabaseConnector& dbConnector);
     
-    // 快递管理接口
-    virtual bool addPackage(const PackageInfo& package) = 0;
-    virtual bool removePackage(const std::string& trackingNumber) = 0;
-    virtual std::optional<PackageInfo> findPackage(const std::string& trackingNumber) = 0;
+    // 快递管理
+    bool registerPackage(const std::string& trackingNumber,
+                        const std::string& ownerPhone,
+                        const std::string& shelfNumber,
+                        bool isUrgent);
     
-    // 用户管理接口
-    virtual std::vector<UserInfo> listUsers(int offset, int limit) = 0;
-    virtual bool disableUser(const std::string& userId) = 0;
+    bool updatePackageInfo(const std::string& trackingNumber,
+                          const std::string& newShelfNumber,
+                          bool newUrgentStatus);
     
-    // 系统状态
-    struct SystemStatus {
-        size_t totalPackages;
-        size_t activeUsers;
-        size_t todayPickups;
+    bool removePackage(const std::string& trackingNumber);
+    
+    std::vector<Package> searchPackages(const std::string& searchTerm);
+    
+    // 用户管理
+    bool registerUser(UserType type,
+                     const std::string& phone,
+                     const std::string& password,
+                     const std::string& nickname);
+    
+    bool updateUserInfo(const std::string& userId,
+                       const std::string& newPassword,
+                       const std::string& newNickname);
+    
+    bool deleteUserAccount(const std::string& userId);
+    
+    std::vector<User> listUsers(UserType type);
+    
+    // 统计报表
+    struct Statistics {
+        int totalPackages;
+        int urgentPackages;
+        int pickedUpToday;
+        int registeredUsers;
+        int staffCount;
     };
     
-    virtual SystemStatus getSystemStatus() const = 0;
+    Statistics getSystemStatistics();
+
+private:
+    PackageManager packageManager;
+    UserManager userManager;
+    
+    // 生成用户ID
+    std::string generateUserId(UserType type) const;
+    
+    // 验证快递信息
+    bool validatePackageInfo(const std::string& trackingNumber,
+                           const std::string& ownerPhone) const;
 };
 
-// 创建具体实现
-std::unique_ptr<IStaffService> createStaffService(
-    IDatabaseConnector& dbConnector,
-    IAVLTreeManager& packageManager);
-
-} // namespace Staff
-} // namespace CampusExpress
+#endif // STAFFSERVICE_H
