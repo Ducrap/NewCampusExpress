@@ -1,52 +1,45 @@
-// include/core/DatabaseConnector.h
-#pragma once
+#ifndef DATABASECONNECTOR_H
+#define DATABASECONNECTOR_H
+
+#include <mysql_driver.h>
+#include <mysql_connection.h>
+#include <cppconn/prepared_statement.h>
 #include <string>
-#include <vector>
+#include <memory>
 
-namespace CampusExpress {
-
-struct UserInfo {
-    std::string userId;
-    std::string phone;
-    std::string nickname;
-    bool isStaff;
-};
-
-class IDatabaseConnector {
+class DatabaseConnector {
 public:
-    virtual ~IDatabaseConnector() = default;
+    // 获取数据库连接单例
+    static DatabaseConnector& getInstance();
     
-    // 用户管理接口
-    virtual bool registerUser(const std::string& phone, 
-                            const std::string& password,
-                            const std::string& nickname,
-                            bool isStaff) = 0;
+    // 连接数据库
+    bool connect(const std::string& host, const std::string& user, 
+                const std::string& password, const std::string& database);
     
-    virtual std::optional<UserInfo> authenticate(const std::string& identifier,
-                                               const std::string& password) = 0;
+    // 执行查询
+    std::unique_ptr<sql::ResultSet> executeQuery(const std::string& query);
     
-    // 快递管理接口
-    virtual bool addPackage(const std::string& trackingNumber,
-                          const std::string& ownerPhone,
-                          const std::string& shelfNumber,
-                          bool isUrgent) = 0;
+    // 执行更新
+    int executeUpdate(const std::string& query);
     
-    virtual bool updatePackageStatus(const std::string& trackingNumber,
-                                   const std::string& status) = 0;
+    // 准备语句
+    std::unique_ptr<sql::PreparedStatement> prepareStatement(const std::string& query);
     
-    virtual std::vector<PackageInfo> getPackagesByUser(const std::string& phone) = 0;
+    // 事务管理
+    void beginTransaction();
+    void commitTransaction();
+    void rollbackTransaction();
     
-    // 事务支持
-    virtual bool beginTransaction() = 0;
-    virtual bool commitTransaction() = 0;
-    virtual bool rollbackTransaction() = 0;
+    // 检查连接状态
+    bool isConnected() const;
+
+private:
+    DatabaseConnector(); // 私有构造函数
+    ~DatabaseConnector();
+    
+    sql::mysql::MySQL_Driver* driver;
+    std::unique_ptr<sql::Connection> connection;
+    bool connected;
 };
 
-// 创建具体实现的工厂方法
-std::unique_ptr<IDatabaseConnector> createMySQLConnector(
-    const std::string& host, 
-    const std::string& user,
-    const std::string& password,
-    const std::string& database);
-
-} // namespace CampusExpress
+#endif // DATABASECONNECTOR_H
