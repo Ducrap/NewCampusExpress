@@ -29,7 +29,7 @@ find_package(Qt6 REQUIRED COMPONENTS
 )
 
 # MySQL配置（路径根据实际安装位置调整）
-set(MYSQL_CONNECTOR_DIR "C:/Program Files/MySQL/MySQL Connector C++ 9.3")
+set(MYSQL_CONNECTOR_DIR "D:/MySQL/MySQL Connector C++ 9.3")
 set(MySQL_INCLUDE_DIR "${MYSQL_CONNECTOR_DIR}/include")
 set(MySQL_LIBRARY "${MYSQL_CONNECTOR_DIR}/lib64/vs14/mysqlcppconn.lib")
 

@@ -4,7 +4,10 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Program Files/MySQL/MySQL Connector C++ 9.3/include/jdbc"
+                "D:/MySQL/MySQL Connector C++ 9.3/include/jdbc",
+                "E:/Qt/6.9.1/mingw_64/include/QtWidgets",
+                "E:/Qt/6.9.1/mingw_64/include",
+                "E:/Qt/6.9.1/mingw_64/include/QtCore"
             ],
             "defines": [
                 "_DEBUG",

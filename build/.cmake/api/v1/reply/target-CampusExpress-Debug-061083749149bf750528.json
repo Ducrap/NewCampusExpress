@@ -300,7 +300,7 @@
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "C:/Program Files/MySQL/MySQL Connector C++ 9.3/include"
+					"path" : "D:/MySQL/MySQL Connector C++ 9.3/include"
 				},
 				{
 					"backtrace" : 3,
@@ -364,22 +364,22 @@
 	[
 		{
 			"backtrace" : 3,
-			"id" : "CoreModule::@0618756b1ff51bca1a0e"
+			"id" : "PickupModule::@77c1efa2f5e0269b2c76"
 		},
 		{
 			"backtrace" : 3,
-			"id" : "PickupModule::@77c1efa2f5e0269b2c76"
+			"id" : "CoreModule::@0618756b1ff51bca1a0e"
 		},
 		{
 			"backtrace" : 3,
 			"id" : "GuiModule::@7675e61a69a6135e3026"
 		},
 		{
-			"id" : "CampusExpress_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "CampusExpress_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "CampusExpress_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "CampusExpress::@6890427a1f51a3e7e1df",
@@ -456,7 +456,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "\"C:\\Program Files\\MySQL\\MySQL Connector C++ 9.3\\lib64\\vs14\\mysqlcppconn.lib\"",
+				"fragment" : "\"D:\\MySQL\\MySQL Connector C++ 9.3\\lib64\\vs14\\mysqlcppconn.lib\"",
 				"role" : "libraries"
 			},
 			{

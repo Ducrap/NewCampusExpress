@@ -18,11 +18,11 @@
 	[
 		{
 			"backtrace" : 0,
-			"id" : "CoreModule::@0618756b1ff51bca1a0e"
+			"id" : "PickupModule::@77c1efa2f5e0269b2c76"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "PickupModule::@77c1efa2f5e0269b2c76"
+			"id" : "CoreModule::@0618756b1ff51bca1a0e"
 		},
 		{
 			"backtrace" : 0,

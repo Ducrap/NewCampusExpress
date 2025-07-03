@@ -429,7 +429,7 @@
 		"F:/NewCampusExpress/include/core",
 		"F:/NewCampusExpress/include/pickup",
 		"F:/NewCampusExpress/include/gui",
-		"C:/Program Files/MySQL/MySQL Connector C++ 9.3/include",
+		"D:/MySQL/MySQL Connector C++ 9.3/include",
 		"E:/Qt/6.9.1/mingw_64/include/QtCore",
 		"E:/Qt/6.9.1/mingw_64/include",
 		"E:/Qt/6.9.1/mingw_64/mkspecs/win32-g++",
