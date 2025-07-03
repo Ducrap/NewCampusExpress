@@ -1,0 +1,104 @@
+[
+{
+  "directory": "F:/NewCampusExpress/build",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/CampusExpress.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CampusExpress.dir\\CampusExpress_autogen\\mocs_compilation.cpp.obj -c F:\\NewCampusExpress\\build\\CampusExpress_autogen\\mocs_compilation.cpp",
+  "file": "F:/NewCampusExpress/build/CampusExpress_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/CampusExpress.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CampusExpress.dir\\src\\main.cpp.obj -c F:\\NewCampusExpress\\src\\main.cpp",
+  "file": "F:/NewCampusExpress/src/main.cpp",
+  "output": "CMakeFiles/CampusExpress.dir/src/main.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/core",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_SQL_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/CoreModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CoreModule.dir\\CoreModule_autogen\\mocs_compilation.cpp.obj -c F:\\NewCampusExpress\\build\\src\\core\\CoreModule_autogen\\mocs_compilation.cpp",
+  "file": "F:/NewCampusExpress/build/src/core/CoreModule_autogen/mocs_compilation.cpp",
+  "output": "src/core/CMakeFiles/CoreModule.dir/CoreModule_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/core",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_SQL_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/CoreModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CoreModule.dir\\DatabaseConnector.cpp.obj -c F:\\NewCampusExpress\\src\\core\\DatabaseConnector.cpp",
+  "file": "F:/NewCampusExpress/src/core/DatabaseConnector.cpp",
+  "output": "src/core/CMakeFiles/CoreModule.dir/DatabaseConnector.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/core",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_SQL_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/CoreModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CoreModule.dir\\AVLTree.cpp.obj -c F:\\NewCampusExpress\\src\\core\\AVLTree.cpp",
+  "file": "F:/NewCampusExpress/src/core/AVLTree.cpp",
+  "output": "src/core/CMakeFiles/CoreModule.dir/AVLTree.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/core",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_SQL_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/CoreModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CoreModule.dir\\User.cpp.obj -c F:\\NewCampusExpress\\src\\core\\User.cpp",
+  "file": "F:/NewCampusExpress/src/core/User.cpp",
+  "output": "src/core/CMakeFiles/CoreModule.dir/User.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/core",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_SQL_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/CoreModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CoreModule.dir\\Package.cpp.obj -c F:\\NewCampusExpress\\src\\core\\Package.cpp",
+  "file": "F:/NewCampusExpress/src/core/Package.cpp",
+  "output": "src/core/CMakeFiles/CoreModule.dir/Package.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/core",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_SQL_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/CoreModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CoreModule.dir\\Config.cpp.obj -c F:\\NewCampusExpress\\src\\core\\Config.cpp",
+  "file": "F:/NewCampusExpress/src/core/Config.cpp",
+  "output": "src/core/CMakeFiles/CoreModule.dir/Config.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/pickup",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/PickupModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PickupModule.dir\\PickupModule_autogen\\mocs_compilation.cpp.obj -c F:\\NewCampusExpress\\build\\src\\pickup\\PickupModule_autogen\\mocs_compilation.cpp",
+  "file": "F:/NewCampusExpress/build/src/pickup/PickupModule_autogen/mocs_compilation.cpp",
+  "output": "src/pickup/CMakeFiles/PickupModule.dir/PickupModule_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/pickup",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/PickupModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PickupModule.dir\\PickupQueue.cpp.obj -c F:\\NewCampusExpress\\src\\pickup\\PickupQueue.cpp",
+  "file": "F:/NewCampusExpress/src/pickup/PickupQueue.cpp",
+  "output": "src/pickup/CMakeFiles/PickupModule.dir/PickupQueue.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/pickup",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/PickupModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PickupModule.dir\\PickupScheduler.cpp.obj -c F:\\NewCampusExpress\\src\\pickup\\PickupScheduler.cpp",
+  "file": "F:/NewCampusExpress/src/pickup/PickupScheduler.cpp",
+  "output": "src/pickup/CMakeFiles/PickupModule.dir/PickupScheduler.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/pickup",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/PickupModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PickupModule.dir\\PickupService.cpp.obj -c F:\\NewCampusExpress\\src\\pickup\\PickupService.cpp",
+  "file": "F:/NewCampusExpress/src/pickup/PickupService.cpp",
+  "output": "src/pickup/CMakeFiles/PickupModule.dir/PickupService.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/gui",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GuiModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GuiModule.dir\\GuiModule_autogen\\mocs_compilation.cpp.obj -c F:\\NewCampusExpress\\build\\src\\gui\\GuiModule_autogen\\mocs_compilation.cpp",
+  "file": "F:/NewCampusExpress/build/src/gui/GuiModule_autogen/mocs_compilation.cpp",
+  "output": "src/gui/CMakeFiles/GuiModule.dir/GuiModule_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/gui",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GuiModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GuiModule.dir\\LoginWindow.cpp.obj -c F:\\NewCampusExpress\\src\\gui\\LoginWindow.cpp",
+  "file": "F:/NewCampusExpress/src/gui/LoginWindow.cpp",
+  "output": "src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/gui",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GuiModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GuiModule.dir\\UserWindow.cpp.obj -c F:\\NewCampusExpress\\src\\gui\\UserWindow.cpp",
+  "file": "F:/NewCampusExpress/src/gui/UserWindow.cpp",
+  "output": "src/gui/CMakeFiles/GuiModule.dir/UserWindow.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/gui",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GuiModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GuiModule.dir\\StaffWindow.cpp.obj -c F:\\NewCampusExpress\\src\\gui\\StaffWindow.cpp",
+  "file": "F:/NewCampusExpress/src/gui/StaffWindow.cpp",
+  "output": "src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.obj"
+},
+{
+  "directory": "F:/NewCampusExpress/build/src/gui",
+  "command": "E:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GuiModule.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GuiModule.dir\\DialogManager.cpp.obj -c F:\\NewCampusExpress\\src\\gui\\DialogManager.cpp",
+  "file": "F:/NewCampusExpress/src/gui/DialogManager.cpp",
+  "output": "src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.obj"
+}
+]

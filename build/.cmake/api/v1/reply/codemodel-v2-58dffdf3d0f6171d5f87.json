@@ -1,0 +1,224 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-eb16fbdb4ac8fb16c858.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "src/core",
+					"jsonFile" : "directory-src.core-Debug-27980f60b5df84566cd6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/core",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "src/pickup",
+					"jsonFile" : "directory-src.pickup-Debug-085820f6ebd39fbc92ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/pickup",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "src/staff",
+					"jsonFile" : "directory-src.staff-Debug-9d9f0afc00c46df8c8a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/staff"
+				},
+				{
+					"build" : "src/gui",
+					"jsonFile" : "directory-src.gui-Debug-127846aa570c1dd3fdd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/gui",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "CampusExpress",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CampusExpress::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CampusExpress-Debug-44160dfddcf58a0aaf39.json",
+					"name" : "CampusExpress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CampusExpress_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CampusExpress_autogen-Debug-096409ea72ff465bb0eb.json",
+					"name" : "CampusExpress_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CampusExpress_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CampusExpress_autogen_timestamp_deps-Debug-3cf52a6bd7a98c97e071.json",
+					"name" : "CampusExpress_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CoreModule::@0618756b1ff51bca1a0e",
+					"jsonFile" : "target-CoreModule-Debug-ce9002339cc5cb837479.json",
+					"name" : "CoreModule",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CoreModule_autogen::@0618756b1ff51bca1a0e",
+					"jsonFile" : "target-CoreModule_autogen-Debug-84150c4764d03acf5596.json",
+					"name" : "CoreModule_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CoreModule_autogen_timestamp_deps::@0618756b1ff51bca1a0e",
+					"jsonFile" : "target-CoreModule_autogen_timestamp_deps-Debug-b681bb50f7173d2e7fa6.json",
+					"name" : "CoreModule_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "GuiModule::@7675e61a69a6135e3026",
+					"jsonFile" : "target-GuiModule-Debug-62a7b1d34533b48d2ef8.json",
+					"name" : "GuiModule",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "GuiModule_autogen::@7675e61a69a6135e3026",
+					"jsonFile" : "target-GuiModule_autogen-Debug-9867f85eaa3de7333dee.json",
+					"name" : "GuiModule_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "GuiModule_autogen_timestamp_deps::@7675e61a69a6135e3026",
+					"jsonFile" : "target-GuiModule_autogen_timestamp_deps-Debug-2a2f4eafef1a48efc1aa.json",
+					"name" : "GuiModule_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "PickupModule::@77c1efa2f5e0269b2c76",
+					"jsonFile" : "target-PickupModule-Debug-802e050fe92ada9b3ca3.json",
+					"name" : "PickupModule",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "PickupModule_autogen::@77c1efa2f5e0269b2c76",
+					"jsonFile" : "target-PickupModule_autogen-Debug-9e5ff23900008f9930c4.json",
+					"name" : "PickupModule_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "PickupModule_autogen_timestamp_deps::@77c1efa2f5e0269b2c76",
+					"jsonFile" : "target-PickupModule_autogen_timestamp_deps-Debug-529089dd482b842edd88.json",
+					"name" : "PickupModule_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/NewCampusExpress/build",
+		"source" : "F:/NewCampusExpress"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

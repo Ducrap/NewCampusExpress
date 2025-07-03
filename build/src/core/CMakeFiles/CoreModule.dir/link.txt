@@ -1,0 +1,2 @@
+E:\Qt\Tools\mingw1310_64\bin\ar.exe qc ..\..\lib\libCoreModule.a CMakeFiles/CoreModule.dir/CoreModule_autogen/mocs_compilation.cpp.obj CMakeFiles/CoreModule.dir/DatabaseConnector.cpp.obj CMakeFiles/CoreModule.dir/AVLTree.cpp.obj CMakeFiles/CoreModule.dir/User.cpp.obj CMakeFiles/CoreModule.dir/Package.cpp.obj CMakeFiles/CoreModule.dir/Config.cpp.obj
+E:\Qt\Tools\mingw1310_64\bin\ranlib.exe ..\..\lib\libCoreModule.a

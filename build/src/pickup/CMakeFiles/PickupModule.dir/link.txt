@@ -1,0 +1,2 @@
+E:\Qt\Tools\mingw1310_64\bin\ar.exe qc ..\..\lib\libPickupModule.a CMakeFiles/PickupModule.dir/PickupModule_autogen/mocs_compilation.cpp.obj CMakeFiles/PickupModule.dir/PickupQueue.cpp.obj CMakeFiles/PickupModule.dir/PickupScheduler.cpp.obj CMakeFiles/PickupModule.dir/PickupService.cpp.obj
+E:\Qt\Tools\mingw1310_64\bin\ranlib.exe ..\..\lib\libPickupModule.a

@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/NewCampusExpress/build/cmake_install.cmake",
+		"F:/NewCampusExpress/build/src/core/cmake_install.cmake",
+		"F:/NewCampusExpress/build/src/pickup/cmake_install.cmake",
+		"F:/NewCampusExpress/build/src/staff/cmake_install.cmake",
+		"F:/NewCampusExpress/build/src/gui/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/pickup/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "CoreModule::@0618756b1ff51bca1a0e"
+		}
+	],
+	"id" : "PickupModule_autogen_timestamp_deps::@77c1efa2f5e0269b2c76",
+	"isGeneratorProvided" : true,
+	"name" : "PickupModule_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/pickup",
+		"source" : "src/pickup"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

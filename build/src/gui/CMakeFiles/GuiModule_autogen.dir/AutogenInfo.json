@@ -1,0 +1,101 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "F:/NewCampusExpress/build/src/gui/GuiModule_autogen",
+	"CMAKE_BINARY_DIR" : "F:/NewCampusExpress/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/NewCampusExpress/build/src/gui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/NewCampusExpress/src/gui",
+	"CMAKE_EXECUTABLE" : "D:/mysy32/mingw64/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : [ "F:/NewCampusExpress/src/gui/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "F:/NewCampusExpress",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "F:/NewCampusExpress/build/src/gui/GuiModule_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "GuiModule_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "F:/NewCampusExpress/build/src/gui/GuiModule_autogen/include",
+	"MOC_COMPILATION_FILE" : "F:/NewCampusExpress/build/src/gui/GuiModule_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"MINGW_HAS_SECURE_API=1",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"F:/NewCampusExpress/build/src/gui",
+		"F:/NewCampusExpress/src/gui",
+		"F:/NewCampusExpress/include/gui",
+		"F:/NewCampusExpress/include/core",
+		"C:/Program Files/MySQL/MySQL Connector C++ 9.3/include",
+		"F:/NewCampusExpress/include/pickup",
+		"E:/Qt/6.9.1/mingw_64/include/QtWidgets",
+		"E:/Qt/6.9.1/mingw_64/include",
+		"E:/Qt/6.9.1/mingw_64/include/QtCore",
+		"E:/Qt/6.9.1/mingw_64/mkspecs/win32-g++",
+		"E:/Qt/6.9.1/mingw_64/include/QtGui",
+		"E:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+		"E:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+		"E:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+		"E:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+		"E:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+		"E:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"E:/Qt/Tools/mingw1310_64/bin/g++.exe",
+		"-std=gnu++17",
+		"-w",
+		"-dM",
+		"-E",
+		"D:/mysy32/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "F:/NewCampusExpress/build/src/gui/GuiModule_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "F:/NewCampusExpress/build/src/gui/CMakeFiles/GuiModule_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "E:/Qt/6.9.1/mingw_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "E:/Qt/6.9.1/mingw_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "F:/NewCampusExpress/build/src/gui/CMakeFiles/GuiModule_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "F:/NewCampusExpress/src/gui/DialogManager.cpp", "MU", null ],
+		[ "F:/NewCampusExpress/src/gui/LoginWindow.cpp", "MU", null ],
+		[ "F:/NewCampusExpress/src/gui/StaffWindow.cpp", "MU", null ],
+		[ "F:/NewCampusExpress/src/gui/UserWindow.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
