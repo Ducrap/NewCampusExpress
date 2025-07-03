@@ -131,12 +131,15 @@ void UserWindow::loadUserPackages() {
         
         packageTable->setItem(i, 3, new QTableWidgetItem(pkg.isUrgent() ? "是" : "否"));
         
+        time_t arrivalTime = pkg.getArrivalTime();
+        struct tm* tm_info = std::localtime(&arrivalTime);
+        
         char timeStr[20];
-        std::strftime(timeStr, sizeof(timeStr), "%Y-%m-%d %H:%M", 
-                     std::localtime(&pkg.getArrivalTime()));
+        std::strftime(timeStr, sizeof(timeStr), "%Y-%m-%d %H:%M", tm_info);
         packageTable->setItem(i, 4, new QTableWidgetItem(QString(timeStr)));
     }
 }
+
 
 void UserWindow::updateStatusMessage(const QString& message, bool isError) {
     statusLabel->setText(message);

@@ -3,6 +3,13 @@
 
 #include <QMainWindow>
 #include "PickupService.h"
+#include <QLineEdit>
+#include <QPushButton>
+#include <QTableWidget>
+#include <QLabel>
+#include <QCheckBox>
+#include <QGroupBox>
+#include <ctime>
 
 QT_BEGIN_NAMESPACE
 class QLineEdit;

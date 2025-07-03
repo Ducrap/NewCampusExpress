@@ -1,0 +1,7 @@
+GuiModule_autogen/timestamp: \
+	F:/NewCampusExpress/src/gui/CMakeLists.txt \
+	F:/NewCampusExpress/src/gui/DialogManager.cpp \
+	F:/NewCampusExpress/src/gui/LoginWindow.cpp \
+	F:/NewCampusExpress/src/gui/StaffWindow.cpp \
+	F:/NewCampusExpress/src/gui/UserWindow.cpp \
+	D:/mysy32/mingw64/bin/cmake.exe

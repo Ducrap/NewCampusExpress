@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj"
+  "CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj.d"
+  "CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj"
+  "CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj.d"
   "CMakeFiles/CampusExpress.dir/src/main.cpp.obj"
   "CMakeFiles/CampusExpress.dir/src/main.cpp.obj.d"
   "CMakeFiles/CampusExpress_autogen.dir/AutogenUsed.txt"

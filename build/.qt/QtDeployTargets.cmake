@@ -6,4 +6,4 @@ set(__QT_DEPLOY_TARGET_GuiModule_FILE F:/NewCampusExpress/build/lib/libGuiModule
 set(__QT_DEPLOY_TARGET_GuiModule_TYPE STATIC_LIBRARY)
 set(__QT_DEPLOY_TARGET_CampusExpress_FILE F:/NewCampusExpress/build/bin/CampusExpress.exe)
 set(__QT_DEPLOY_TARGET_CampusExpress_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_CampusExpress_RUNTIME_DLLS E:/Qt/6.9.1/mingw_64/bin/Qt6Widgets.dll;E:/Qt/6.9.1/mingw_64/bin/Qt6Network.dll;E:/Qt/6.9.1/mingw_64/bin/Qt6Sql.dll;D:/MySQL/MySQL Connector C++ 9.3/lib64/mysqlcppconn-10-vs14.dll;E:/Qt/6.9.1/mingw_64/bin/Qt6Concurrent.dll;E:/Qt/6.9.1/mingw_64/bin/Qt6Gui.dll;E:/Qt/6.9.1/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_CampusExpress_RUNTIME_DLLS E:/Qt/6.9.1/mingw_64/bin/Qt6Widgets.dll;E:/Qt/6.9.1/mingw_64/bin/Qt6Network.dll;E:/Qt/6.9.1/mingw_64/bin/Qt6Sql.dll;D:/MySQL/MySQL_Connector_C++_9.3/lib64/vs14/mysqlcppconn-10-vs14.dll;E:/Qt/6.9.1/mingw_64/bin/Qt6Concurrent.dll;E:/Qt/6.9.1/mingw_64/bin/Qt6Gui.dll;E:/Qt/6.9.1/mingw_64/bin/Qt6Core.dll)

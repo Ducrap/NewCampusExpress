@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/libCoreModule.a"
+			"path" : "lib/libGuiModule.a"
 		}
 	],
 	"backtrace" : 1,
@@ -13,13 +13,11 @@
 		[
 			"add_library",
 			"target_link_libraries",
-			"include_directories",
 			"target_include_directories"
 		],
 		"files" : 
 		[
-			"src/core/CMakeLists.txt",
-			"CMakeLists.txt"
+			"src/gui/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -35,22 +33,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 15,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
-				"file" : 1
-			},
-			{
 				"command" : 2,
-				"file" : 1,
-				"line" : 43,
-				"parent" : 3
-			},
-			{
-				"command" : 3,
 				"file" : 0,
-				"line" : 10,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -76,7 +65,11 @@
 				},
 				{
 					"backtrace" : 2,
-					"define" : "QT_SQL_LIB"
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
 				},
 				{
 					"backtrace" : 2,
@@ -106,40 +99,40 @@
 			"includes" : 
 			[
 				{
-					"path" : "F:/NewCampusExpress/build/src/core"
+					"path" : "F:/NewCampusExpress/build/src/gui"
 				},
 				{
-					"path" : "F:/NewCampusExpress/src/core"
+					"path" : "F:/NewCampusExpress/src/gui"
 				},
 				{
 					"backtrace" : 0,
-					"path" : "F:/NewCampusExpress/build/src/core/CoreModule_autogen/include"
+					"path" : "F:/NewCampusExpress/build/src/gui/GuiModule_autogen/include"
 				},
 				{
-					"backtrace" : 4,
-					"path" : "F:/NewCampusExpress/include"
+					"backtrace" : 3,
+					"path" : "F:/NewCampusExpress/src/gui/../../include/gui"
 				},
 				{
-					"backtrace" : 4,
-					"path" : "F:/NewCampusExpress/include/gui"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "F:/NewCampusExpress/include/staff"
-				},
-				{
-					"backtrace" : 5,
+					"backtrace" : 2,
 					"path" : "F:/NewCampusExpress/src/core/../../include/core"
 				},
 				{
-					"backtrace" : 4,
-					"isSystem" : true,
-					"path" : "E:/Qt/6.9.1/mingw_64/include"
+					"backtrace" : 2,
+					"path" : "D:/MySQL/MySQL_Connector_C++_9.3/include/jdbc"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 2,
+					"path" : "F:/NewCampusExpress/src/pickup/../../include/pickup"
+				},
+				{
+					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "D:/MySQL/MySQL Connector C++ 9.3/include"
+					"path" : "E:/Qt/6.9.1/mingw_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Qt/6.9.1/mingw_64/include"
 				},
 				{
 					"backtrace" : 2,
@@ -154,7 +147,7 @@
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "E:/Qt/6.9.1/mingw_64/include/QtSql"
+					"path" : "E:/Qt/6.9.1/mingw_64/include/QtGui"
 				}
 			],
 			"language" : "CXX",
@@ -173,28 +166,35 @@
 				1,
 				2,
 				3,
-				4,
-				5
+				4
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "CoreModule_autogen::@0618756b1ff51bca1a0e"
+			"backtrace" : 2,
+			"id" : "CoreModule::@0618756b1ff51bca1a0e"
 		},
 		{
-			"id" : "CoreModule_autogen_timestamp_deps::@0618756b1ff51bca1a0e"
+			"backtrace" : 2,
+			"id" : "PickupModule::@77c1efa2f5e0269b2c76"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "GuiModule_autogen::@7675e61a69a6135e3026"
+		},
+		{
+			"id" : "GuiModule_autogen_timestamp_deps::@7675e61a69a6135e3026"
 		}
 	],
-	"id" : "CoreModule::@0618756b1ff51bca1a0e",
-	"name" : "CoreModule",
-	"nameOnDisk" : "libCoreModule.a",
+	"id" : "GuiModule::@7675e61a69a6135e3026",
+	"name" : "GuiModule",
+	"nameOnDisk" : "libGuiModule.a",
 	"paths" : 
 	{
-		"build" : "src/core",
-		"source" : "src/core"
+		"build" : "src/gui",
+		"source" : "src/gui"
 	},
 	"sourceGroups" : 
 	[
@@ -206,22 +206,21 @@
 				1,
 				2,
 				3,
-				4,
-				5
+				4
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				6
+				5
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				6
 			]
 		}
 	],
@@ -231,49 +230,43 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/src/core/CoreModule_autogen/mocs_compilation.cpp",
+			"path" : "build/src/gui/GuiModule_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/core/DatabaseConnector.cpp",
+			"path" : "src/gui/LoginWindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/core/AVLTree.cpp",
+			"path" : "src/gui/UserWindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/core/User.cpp",
+			"path" : "src/gui/StaffWindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/core/Package.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/core/Config.cpp",
+			"path" : "src/gui/DialogManager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/src/core/CoreModule_autogen/timestamp",
+			"path" : "build/src/gui/GuiModule_autogen/timestamp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/src/core/CoreModule_autogen/timestamp.rule",
+			"path" : "build/src/gui/GuiModule_autogen/timestamp.rule",
 			"sourceGroupIndex" : 2
 		}
 	],

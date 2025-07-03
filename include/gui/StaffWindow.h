@@ -4,6 +4,13 @@
 #include <QMainWindow>
 #include <QTabWidget>
 #include "../staff/StaffService.h"
+#include <QLineEdit>
+#include <QPushButton>
+#include <QTableWidget>
+#include <QLabel>
+#include <QComboBox>
+#include <QCheckBox>
+#include <QGroupBox>
 
 QT_BEGIN_NAMESPACE
 class QLineEdit;
@@ -20,6 +27,8 @@ class StaffWindow : public QMainWindow {
 public:
     explicit StaffWindow(StaffService& staffService, QWidget* parent = nullptr);
 
+    void setupUI();
+    
 private slots:
     void handlePackageRegistration();
     void handlePackageUpdate();

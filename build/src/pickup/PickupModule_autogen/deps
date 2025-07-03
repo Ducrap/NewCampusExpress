@@ -1,0 +1,6 @@
+PickupModule_autogen/timestamp: \
+	F:/NewCampusExpress/src/pickup/CMakeLists.txt \
+	F:/NewCampusExpress/src/pickup/PickupQueue.cpp \
+	F:/NewCampusExpress/src/pickup/PickupScheduler.cpp \
+	F:/NewCampusExpress/src/pickup/PickupService.cpp \
+	D:/mysy32/mingw64/bin/cmake.exe

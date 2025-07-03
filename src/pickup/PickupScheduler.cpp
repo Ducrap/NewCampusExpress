@@ -87,3 +87,5 @@ void PickupScheduler::processingLoop() {
         } catch (const std::exception& e) {
             std::cerr << "Error processing pickup: " << e.what() << std::endl;
         }
+    }
+}

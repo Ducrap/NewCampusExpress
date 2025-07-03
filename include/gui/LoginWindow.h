@@ -4,6 +4,17 @@
 #include <QMainWindow>
 #include <QStackedWidget>
 #include "DatabaseConnector.h"
+#include <QComboBox>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QLabel>
+#include <QCheckBox>
+#include <QTimer>
+
+enum class UserType {
+    STUDENT,
+    STAFF
+};
 
 QT_BEGIN_NAMESPACE
 class QLineEdit;

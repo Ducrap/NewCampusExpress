@@ -63,7 +63,7 @@ void AVLTree<T>::balance(std::unique_ptr<Node>& node) {
 // 插入数据
 template <typename T>
 void AVLTree<T>::insert(const T& data) {
-    auto insertHelper = [](const auto& self, std::unique_ptr<Node>& node, const T& data) -> void {
+    auto insertHelper = [this](const auto& self, std::unique_ptr<Node>& node, const T& data) -> void {
         if (!node) {
             node = std::make_unique<Node>(data);
             return;
@@ -79,7 +79,7 @@ void AVLTree<T>::insert(const T& data) {
             return;
         }
         
-        balance(node);
+        this->balance(node);
     };
     
     insertHelper(insertHelper, root, data);
@@ -102,4 +102,4 @@ T* AVLTree<T>::find(const std::string& key) const {
 }
 
 // 显式实例化模板
-template class AVLTree<Package>;
+//template class AVLTree<Package>;
