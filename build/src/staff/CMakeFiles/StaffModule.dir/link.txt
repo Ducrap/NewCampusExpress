@@ -1,0 +1,2 @@
+E:\Qt\Tools\mingw1310_64\bin\ar.exe qc ..\..\lib\libStaffModule.a CMakeFiles/StaffModule.dir/StaffModule_autogen/mocs_compilation.cpp.obj CMakeFiles/StaffModule.dir/StaffService.cpp.obj CMakeFiles/StaffModule.dir/PackageManager.cpp.obj CMakeFiles/StaffModule.dir/UserManager.cpp.obj
+E:\Qt\Tools\mingw1310_64\bin\ranlib.exe ..\..\lib\libStaffModule.a

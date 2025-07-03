@@ -38,6 +38,7 @@
 	[
 		"F:/NewCampusExpress/build/src/gui",
 		"F:/NewCampusExpress/src/gui",
+		"F:/NewCampusExpress/include",
 		"F:/NewCampusExpress/include/gui",
 		"F:/NewCampusExpress/include/core",
 		"D:/MySQL/MySQL_Connector_C++_9.3/include/jdbc",
@@ -76,7 +77,12 @@
 	],
 	"MOC_PREDEFS_FILE" : "F:/NewCampusExpress/build/src/gui/GuiModule_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : 
+	[
+		"F:/NewCampusExpress/build/src/gui/moc_LoginWindow.cpp",
+		"F:/NewCampusExpress/build/src/gui/moc_StaffWindow.cpp",
+		"F:/NewCampusExpress/build/src/gui/moc_UserWindow.cpp"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 10,
 	"PARSE_CACHE_FILE" : "F:/NewCampusExpress/build/src/gui/CMakeFiles/GuiModule_autogen.dir/ParseCache.txt",
@@ -87,14 +93,18 @@
 	"SETTINGS_FILE" : "F:/NewCampusExpress/build/src/gui/CMakeFiles/GuiModule_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "F:/NewCampusExpress/src/gui/DialogManager.cpp", "MU", null ],
 		[ "F:/NewCampusExpress/src/gui/LoginWindow.cpp", "MU", null ],
 		[ "F:/NewCampusExpress/src/gui/StaffWindow.cpp", "MU", null ],
 		[ "F:/NewCampusExpress/src/gui/UserWindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : 
+	[
+		"F:/NewCampusExpress/build/src/gui/moc_LoginWindow.cpp",
+		"F:/NewCampusExpress/build/src/gui/moc_StaffWindow.cpp",
+		"F:/NewCampusExpress/build/src/gui/moc_UserWindow.cpp"
+	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,
 	"VERBOSITY" : 0

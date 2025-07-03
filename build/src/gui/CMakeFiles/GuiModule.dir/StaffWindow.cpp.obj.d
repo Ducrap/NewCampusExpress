@@ -424,6 +424,7 @@ src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.obj: \
  F:/NewCampusExpress/include/core/Package.h \
  F:/NewCampusExpress/include/staff/UserManager.h \
  F:/NewCampusExpress/include/core/User.h \
+ F:/NewCampusExpress/include/core/UserType.h \
  E:/Qt/6.9.1/mingw_64/include/QtWidgets/QLineEdit \
  E:/Qt/6.9.1/mingw_64/include/QtWidgets/qlineedit.h \
  E:/Qt/6.9.1/mingw_64/include/QtWidgets/qframe.h \

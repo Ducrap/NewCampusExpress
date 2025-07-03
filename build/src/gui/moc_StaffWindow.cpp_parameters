@@ -1,0 +1,6 @@
+-IF:/NewCampusExpress/src/gui
+-IF:/NewCampusExpress/build/src/gui
+-DWIN32
+-o
+F:/NewCampusExpress/build/src/gui/moc_StaffWindow.cpp
+F:/NewCampusExpress/src/gui/StaffWindow.h

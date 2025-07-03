@@ -2,4 +2,3 @@
 F:/NewCampusExpress/src/gui/UserWindow.cpp
 F:/NewCampusExpress/src/gui/StaffWindow.cpp
 F:/NewCampusExpress/src/gui/LoginWindow.cpp
-F:/NewCampusExpress/src/gui/DialogManager.cpp

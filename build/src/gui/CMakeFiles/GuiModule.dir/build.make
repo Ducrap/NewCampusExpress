@@ -86,26 +86,11 @@ src/gui/CMakeFiles/GuiModule.dir/GuiModule_autogen/mocs_compilation.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GuiModule.dir/GuiModule_autogen/mocs_compilation.cpp.s"
 	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\NewCampusExpress\build\src\gui\GuiModule_autogen\mocs_compilation.cpp -o CMakeFiles\GuiModule.dir\GuiModule_autogen\mocs_compilation.cpp.s
 
-src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/flags.make
-src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/includes_CXX.rsp
-src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj: F:/NewCampusExpress/src/gui/LoginWindow.cpp
-src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj"
-	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj -MF CMakeFiles\GuiModule.dir\LoginWindow.cpp.obj.d -o CMakeFiles\GuiModule.dir\LoginWindow.cpp.obj -c F:\NewCampusExpress\src\gui\LoginWindow.cpp
-
-src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GuiModule.dir/LoginWindow.cpp.i"
-	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\NewCampusExpress\src\gui\LoginWindow.cpp > CMakeFiles\GuiModule.dir\LoginWindow.cpp.i
-
-src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GuiModule.dir/LoginWindow.cpp.s"
-	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\NewCampusExpress\src\gui\LoginWindow.cpp -o CMakeFiles\GuiModule.dir\LoginWindow.cpp.s
-
 src/gui/CMakeFiles/GuiModule.dir/UserWindow.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/flags.make
 src/gui/CMakeFiles/GuiModule.dir/UserWindow.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/includes_CXX.rsp
 src/gui/CMakeFiles/GuiModule.dir/UserWindow.cpp.obj: F:/NewCampusExpress/src/gui/UserWindow.cpp
 src/gui/CMakeFiles/GuiModule.dir/UserWindow.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/gui/CMakeFiles/GuiModule.dir/UserWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/gui/CMakeFiles/GuiModule.dir/UserWindow.cpp.obj"
 	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/gui/CMakeFiles/GuiModule.dir/UserWindow.cpp.obj -MF CMakeFiles\GuiModule.dir\UserWindow.cpp.obj.d -o CMakeFiles\GuiModule.dir\UserWindow.cpp.obj -c F:\NewCampusExpress\src\gui\UserWindow.cpp
 
 src/gui/CMakeFiles/GuiModule.dir/UserWindow.cpp.i: cmake_force
@@ -120,7 +105,7 @@ src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.obj: src/gui/CMakeFiles/GuiModu
 src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/includes_CXX.rsp
 src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.obj: F:/NewCampusExpress/src/gui/StaffWindow.cpp
 src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.obj"
 	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.obj -MF CMakeFiles\GuiModule.dir\StaffWindow.cpp.obj.d -o CMakeFiles\GuiModule.dir\StaffWindow.cpp.obj -c F:\NewCampusExpress\src\gui\StaffWindow.cpp
 
 src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.i: cmake_force
@@ -131,40 +116,38 @@ src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GuiModule.dir/StaffWindow.cpp.s"
 	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\NewCampusExpress\src\gui\StaffWindow.cpp -o CMakeFiles\GuiModule.dir\StaffWindow.cpp.s
 
-src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/flags.make
-src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/includes_CXX.rsp
-src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.obj: F:/NewCampusExpress/src/gui/DialogManager.cpp
-src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.obj"
-	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.obj -MF CMakeFiles\GuiModule.dir\DialogManager.cpp.obj.d -o CMakeFiles\GuiModule.dir\DialogManager.cpp.obj -c F:\NewCampusExpress\src\gui\DialogManager.cpp
+src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/flags.make
+src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/includes_CXX.rsp
+src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj: F:/NewCampusExpress/src/gui/LoginWindow.cpp
+src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj: src/gui/CMakeFiles/GuiModule.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj"
+	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj -MF CMakeFiles\GuiModule.dir\LoginWindow.cpp.obj.d -o CMakeFiles\GuiModule.dir\LoginWindow.cpp.obj -c F:\NewCampusExpress\src\gui\LoginWindow.cpp
 
-src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GuiModule.dir/DialogManager.cpp.i"
-	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\NewCampusExpress\src\gui\DialogManager.cpp > CMakeFiles\GuiModule.dir\DialogManager.cpp.i
+src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GuiModule.dir/LoginWindow.cpp.i"
+	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\NewCampusExpress\src\gui\LoginWindow.cpp > CMakeFiles\GuiModule.dir\LoginWindow.cpp.i
 
-src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GuiModule.dir/DialogManager.cpp.s"
-	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\NewCampusExpress\src\gui\DialogManager.cpp -o CMakeFiles\GuiModule.dir\DialogManager.cpp.s
+src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GuiModule.dir/LoginWindow.cpp.s"
+	cd /d F:\NewCampusExpress\build\src\gui && E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\NewCampusExpress\src\gui\LoginWindow.cpp -o CMakeFiles\GuiModule.dir\LoginWindow.cpp.s
 
 # Object files for target GuiModule
 GuiModule_OBJECTS = \
 "CMakeFiles/GuiModule.dir/GuiModule_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj" \
 "CMakeFiles/GuiModule.dir/UserWindow.cpp.obj" \
 "CMakeFiles/GuiModule.dir/StaffWindow.cpp.obj" \
-"CMakeFiles/GuiModule.dir/DialogManager.cpp.obj"
+"CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj"
 
 # External object files for target GuiModule
 GuiModule_EXTERNAL_OBJECTS =
 
 lib/libGuiModule.a: src/gui/CMakeFiles/GuiModule.dir/GuiModule_autogen/mocs_compilation.cpp.obj
-lib/libGuiModule.a: src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj
 lib/libGuiModule.a: src/gui/CMakeFiles/GuiModule.dir/UserWindow.cpp.obj
 lib/libGuiModule.a: src/gui/CMakeFiles/GuiModule.dir/StaffWindow.cpp.obj
-lib/libGuiModule.a: src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.obj
+lib/libGuiModule.a: src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj
 lib/libGuiModule.a: src/gui/CMakeFiles/GuiModule.dir/build.make
 lib/libGuiModule.a: src/gui/CMakeFiles/GuiModule.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ..\..\lib\libGuiModule.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ..\..\lib\libGuiModule.a"
 	cd /d F:\NewCampusExpress\build\src\gui && $(CMAKE_COMMAND) -P CMakeFiles\GuiModule.dir\cmake_clean_target.cmake
 	cd /d F:\NewCampusExpress\build\src\gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GuiModule.dir\link.txt --verbose=$(VERBOSE)
 

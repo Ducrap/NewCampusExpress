@@ -457,6 +457,7 @@ CMakeFiles/CampusExpress.dir/src/main.cpp.obj: \
  E:/Qt/6.9.1/mingw_64/include/QtCore/qeventloop.h \
  E:/Qt/6.9.1/mingw_64/include/QtCore/qdeadlinetimer.h \
  E:/Qt/6.9.1/mingw_64/include/QtCore/qelapsedtimer.h \
+ F:/NewCampusExpress/include/core/UserType.h \
  F:/NewCampusExpress/include/gui/UserWindow.h \
  F:/NewCampusExpress/include/pickup/PickupService.h \
  F:/NewCampusExpress/include/core/Package.h \

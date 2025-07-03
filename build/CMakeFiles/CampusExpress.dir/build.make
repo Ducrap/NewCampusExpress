@@ -68,6 +68,21 @@ include CMakeFiles/CampusExpress.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CampusExpress.dir/flags.make
 
+ui_LoginWindow.h: F:/NewCampusExpress/src/gui/LoginWindow.ui
+ui_LoginWindow.h: E:/Qt/6.9.1/mingw_64/bin/uic.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_LoginWindow.h"
+	E:\Qt\6.9.1\mingw_64\bin\uic.exe -o F:/NewCampusExpress/build/ui_LoginWindow.h F:/NewCampusExpress/src/gui/LoginWindow.ui
+
+ui_UserWindow.h: F:/NewCampusExpress/src/gui/UserWindow.ui
+ui_UserWindow.h: E:/Qt/6.9.1/mingw_64/bin/uic.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_UserWindow.h"
+	E:\Qt\6.9.1\mingw_64\bin\uic.exe -o F:/NewCampusExpress/build/ui_UserWindow.h F:/NewCampusExpress/src/gui/UserWindow.ui
+
+ui_StaffWindow.h: F:/NewCampusExpress/src/gui/StaffWindow.ui
+ui_StaffWindow.h: E:/Qt/6.9.1/mingw_64/bin/uic.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_StaffWindow.h"
+	E:\Qt\6.9.1\mingw_64\bin\uic.exe -o F:/NewCampusExpress/build/ui_StaffWindow.h F:/NewCampusExpress/src/gui/StaffWindow.ui
+
 CMakeFiles/CampusExpress.dir/codegen:
 .PHONY : CMakeFiles/CampusExpress.dir/codegen
 
@@ -75,7 +90,7 @@ CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj: CMa
 CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj: CMakeFiles/CampusExpress.dir/includes_CXX.rsp
 CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj: CampusExpress_autogen/mocs_compilation.cpp
 CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj: CMakeFiles/CampusExpress.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj"
 	E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\CampusExpress.dir\CampusExpress_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\CampusExpress.dir\CampusExpress_autogen\mocs_compilation.cpp.obj -c F:\NewCampusExpress\build\CampusExpress_autogen\mocs_compilation.cpp
 
 CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.i: cmake_force
@@ -90,7 +105,7 @@ CMakeFiles/CampusExpress.dir/src/main.cpp.obj: CMakeFiles/CampusExpress.dir/flag
 CMakeFiles/CampusExpress.dir/src/main.cpp.obj: CMakeFiles/CampusExpress.dir/includes_CXX.rsp
 CMakeFiles/CampusExpress.dir/src/main.cpp.obj: F:/NewCampusExpress/src/main.cpp
 CMakeFiles/CampusExpress.dir/src/main.cpp.obj: CMakeFiles/CampusExpress.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CampusExpress.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CampusExpress.dir/src/main.cpp.obj"
 	E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusExpress.dir/src/main.cpp.obj -MF CMakeFiles\CampusExpress.dir\src\main.cpp.obj.d -o CMakeFiles\CampusExpress.dir\src\main.cpp.obj -c F:\NewCampusExpress\src\main.cpp
 
 CMakeFiles/CampusExpress.dir/src/main.cpp.i: cmake_force
@@ -101,68 +116,36 @@ CMakeFiles/CampusExpress.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CampusExpress.dir/src/main.cpp.s"
 	E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\NewCampusExpress\src\main.cpp -o CMakeFiles\CampusExpress.dir\src\main.cpp.s
 
-CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj: CMakeFiles/CampusExpress.dir/flags.make
-CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj: CMakeFiles/CampusExpress.dir/includes_CXX.rsp
-CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj: qrc_icons.cpp
-CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj: CMakeFiles/CampusExpress.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj"
-	E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj -MF CMakeFiles\CampusExpress.dir\qrc_icons.cpp.obj.d -o CMakeFiles\CampusExpress.dir\qrc_icons.cpp.obj -c F:\NewCampusExpress\build\qrc_icons.cpp
-
-CMakeFiles/CampusExpress.dir/qrc_icons.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CampusExpress.dir/qrc_icons.cpp.i"
-	E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\NewCampusExpress\build\qrc_icons.cpp > CMakeFiles\CampusExpress.dir\qrc_icons.cpp.i
-
-CMakeFiles/CampusExpress.dir/qrc_icons.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CampusExpress.dir/qrc_icons.cpp.s"
-	E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\NewCampusExpress\build\qrc_icons.cpp -o CMakeFiles\CampusExpress.dir\qrc_icons.cpp.s
-
-CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj: CMakeFiles/CampusExpress.dir/flags.make
-CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj: CMakeFiles/CampusExpress.dir/includes_CXX.rsp
-CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj: qrc_styles.cpp
-CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj: CMakeFiles/CampusExpress.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj"
-	E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj -MF CMakeFiles\CampusExpress.dir\qrc_styles.cpp.obj.d -o CMakeFiles\CampusExpress.dir\qrc_styles.cpp.obj -c F:\NewCampusExpress\build\qrc_styles.cpp
-
-CMakeFiles/CampusExpress.dir/qrc_styles.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CampusExpress.dir/qrc_styles.cpp.i"
-	E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\NewCampusExpress\build\qrc_styles.cpp > CMakeFiles\CampusExpress.dir\qrc_styles.cpp.i
-
-CMakeFiles/CampusExpress.dir/qrc_styles.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CampusExpress.dir/qrc_styles.cpp.s"
-	E:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\NewCampusExpress\build\qrc_styles.cpp -o CMakeFiles\CampusExpress.dir\qrc_styles.cpp.s
-
 # Object files for target CampusExpress
 CampusExpress_OBJECTS = \
 "CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/CampusExpress.dir/src/main.cpp.obj" \
-"CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj" \
-"CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj"
+"CMakeFiles/CampusExpress.dir/src/main.cpp.obj"
 
 # External object files for target CampusExpress
 CampusExpress_EXTERNAL_OBJECTS =
 
 bin/CampusExpress.exe: CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj
 bin/CampusExpress.exe: CMakeFiles/CampusExpress.dir/src/main.cpp.obj
-bin/CampusExpress.exe: CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj
-bin/CampusExpress.exe: CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj
 bin/CampusExpress.exe: CMakeFiles/CampusExpress.dir/build.make
 bin/CampusExpress.exe: lib/libCoreModule.a
 bin/CampusExpress.exe: lib/libPickupModule.a
+bin/CampusExpress.exe: lib/libStaffModule.a
 bin/CampusExpress.exe: lib/libGuiModule.a
 bin/CampusExpress.exe: E:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a
 bin/CampusExpress.exe: E:/Qt/6.9.1/mingw_64/lib/libQt6Network.a
 bin/CampusExpress.exe: lib/libPickupModule.a
+bin/CampusExpress.exe: E:/Qt/6.9.1/mingw_64/lib/libQt6Concurrent.a
+bin/CampusExpress.exe: lib/libStaffModule.a
 bin/CampusExpress.exe: lib/libCoreModule.a
 bin/CampusExpress.exe: E:/Qt/6.9.1/mingw_64/lib/libQt6Sql.a
 bin/CampusExpress.exe: D:/MySQL/MySQL_Connector_C++_9.3/lib64/vs14/mysqlcppconn.lib
-bin/CampusExpress.exe: E:/Qt/6.9.1/mingw_64/lib/libQt6Concurrent.a
 bin/CampusExpress.exe: E:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a
 bin/CampusExpress.exe: E:/Qt/6.9.1/mingw_64/lib/libQt6Core.a
 bin/CampusExpress.exe: E:/Qt/6.9.1/mingw_64/lib/libQt6EntryPoint.a
 bin/CampusExpress.exe: CMakeFiles/CampusExpress.dir/linkLibs.rsp
 bin/CampusExpress.exe: CMakeFiles/CampusExpress.dir/objects1.rsp
 bin/CampusExpress.exe: CMakeFiles/CampusExpress.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin\CampusExpress.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable bin\CampusExpress.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CampusExpress.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying MySQL DLL to output directory"
 	D:\mysy32\mingw64\bin\cmake.exe -E copy D:/MySQL/MySQL_Connector_C++_9.3/lib64/vs14/mysqlcppconn-10-vs14.dll F:/NewCampusExpress/build/bin/
@@ -175,7 +158,9 @@ CMakeFiles/CampusExpress.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\CampusExpress.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/CampusExpress.dir/clean
 
-CMakeFiles/CampusExpress.dir/depend:
+CMakeFiles/CampusExpress.dir/depend: ui_LoginWindow.h
+CMakeFiles/CampusExpress.dir/depend: ui_StaffWindow.h
+CMakeFiles/CampusExpress.dir/depend: ui_UserWindow.h
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\NewCampusExpress F:\NewCampusExpress F:\NewCampusExpress\build F:\NewCampusExpress\build F:\NewCampusExpress\build\CMakeFiles\CampusExpress.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CampusExpress.dir/depend
 

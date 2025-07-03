@@ -202,30 +202,6 @@ GuiModule_autogen/fast:
 	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\gui\CMakeFiles\GuiModule_autogen.dir\build.make src/gui/CMakeFiles/GuiModule_autogen.dir/build
 .PHONY : GuiModule_autogen/fast
 
-DialogManager.obj: DialogManager.cpp.obj
-.PHONY : DialogManager.obj
-
-# target to build an object file
-DialogManager.cpp.obj:
-	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\gui\CMakeFiles\GuiModule.dir\build.make src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.obj
-.PHONY : DialogManager.cpp.obj
-
-DialogManager.i: DialogManager.cpp.i
-.PHONY : DialogManager.i
-
-# target to preprocess a source file
-DialogManager.cpp.i:
-	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\gui\CMakeFiles\GuiModule.dir\build.make src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.i
-.PHONY : DialogManager.cpp.i
-
-DialogManager.s: DialogManager.cpp.s
-.PHONY : DialogManager.s
-
-# target to generate assembly for a file
-DialogManager.cpp.s:
-	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\gui\CMakeFiles\GuiModule.dir\build.make src/gui/CMakeFiles/GuiModule.dir/DialogManager.cpp.s
-.PHONY : DialogManager.cpp.s
-
 GuiModule_autogen/mocs_compilation.obj: GuiModule_autogen/mocs_compilation.cpp.obj
 .PHONY : GuiModule_autogen/mocs_compilation.obj
 
@@ -337,9 +313,6 @@ help:
 	@echo ... GuiModule_autogen
 	@echo ... GuiModule_autogen_timestamp_deps
 	@echo ... GuiModule
-	@echo ... DialogManager.obj
-	@echo ... DialogManager.i
-	@echo ... DialogManager.s
 	@echo ... GuiModule_autogen/mocs_compilation.obj
 	@echo ... GuiModule_autogen/mocs_compilation.i
 	@echo ... GuiModule_autogen/mocs_compilation.s

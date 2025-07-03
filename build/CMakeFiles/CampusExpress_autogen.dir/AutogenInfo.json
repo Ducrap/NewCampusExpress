@@ -429,11 +429,11 @@
 		"F:/NewCampusExpress/build",
 		"F:/NewCampusExpress",
 		"F:/NewCampusExpress/include",
+		"F:/NewCampusExpress/include/core",
 		"F:/NewCampusExpress/include/gui",
 		"F:/NewCampusExpress/include/staff",
 		"F:/NewCampusExpress/include/core",
 		"F:/NewCampusExpress/include/pickup",
-		"F:/NewCampusExpress/include/gui",
 		"E:/Qt/6.9.1/mingw_64/include",
 		"D:/MySQL/MySQL_Connector_C++_9.3/include/jdbc",
 		"E:/Qt/6.9.1/mingw_64/include/QtCore",
@@ -474,8 +474,6 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"F:/NewCampusExpress/build/qrc_icons.cpp",
-		"F:/NewCampusExpress/build/qrc_styles.cpp",
 		"F:/NewCampusExpress/build/ui_LoginWindow.h",
 		"F:/NewCampusExpress/build/ui_StaffWindow.h",
 		"F:/NewCampusExpress/build/ui_UserWindow.h"
@@ -496,11 +494,12 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"F:/NewCampusExpress/build/qrc_icons.cpp",
-		"F:/NewCampusExpress/build/qrc_styles.cpp",
 		"F:/NewCampusExpress/build/ui_LoginWindow.h",
 		"F:/NewCampusExpress/build/ui_StaffWindow.h",
-		"F:/NewCampusExpress/build/ui_UserWindow.h"
+		"F:/NewCampusExpress/build/ui_UserWindow.h",
+		"F:/NewCampusExpress/src/gui/LoginWindow.ui",
+		"F:/NewCampusExpress/src/gui/StaffWindow.ui",
+		"F:/NewCampusExpress/src/gui/UserWindow.ui"
 	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,

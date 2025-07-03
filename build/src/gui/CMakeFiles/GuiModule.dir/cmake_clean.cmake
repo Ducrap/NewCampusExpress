@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "../../lib/libGuiModule.a"
   "../../lib/libGuiModule.pdb"
-  "CMakeFiles/GuiModule.dir/DialogManager.cpp.obj"
-  "CMakeFiles/GuiModule.dir/DialogManager.cpp.obj.d"
   "CMakeFiles/GuiModule.dir/GuiModule_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/GuiModule.dir/GuiModule_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj"

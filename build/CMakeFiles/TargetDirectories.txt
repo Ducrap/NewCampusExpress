@@ -25,12 +25,15 @@ F:/NewCampusExpress/build/src/pickup/CMakeFiles/install/local.dir
 F:/NewCampusExpress/build/src/pickup/CMakeFiles/install/strip.dir
 F:/NewCampusExpress/build/src/pickup/CMakeFiles/PickupModule_autogen_timestamp_deps.dir
 F:/NewCampusExpress/build/src/pickup/CMakeFiles/PickupModule_autogen.dir
+F:/NewCampusExpress/build/src/staff/CMakeFiles/StaffModule.dir
 F:/NewCampusExpress/build/src/staff/CMakeFiles/edit_cache.dir
 F:/NewCampusExpress/build/src/staff/CMakeFiles/rebuild_cache.dir
 F:/NewCampusExpress/build/src/staff/CMakeFiles/list_install_components.dir
 F:/NewCampusExpress/build/src/staff/CMakeFiles/install.dir
 F:/NewCampusExpress/build/src/staff/CMakeFiles/install/local.dir
 F:/NewCampusExpress/build/src/staff/CMakeFiles/install/strip.dir
+F:/NewCampusExpress/build/src/staff/CMakeFiles/StaffModule_autogen_timestamp_deps.dir
+F:/NewCampusExpress/build/src/staff/CMakeFiles/StaffModule_autogen.dir
 F:/NewCampusExpress/build/src/gui/CMakeFiles/GuiModule.dir
 F:/NewCampusExpress/build/src/gui/CMakeFiles/edit_cache.dir
 F:/NewCampusExpress/build/src/gui/CMakeFiles/rebuild_cache.dir

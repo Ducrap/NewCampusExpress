@@ -746,8 +746,11 @@ src/core/CMakeFiles/CoreModule.dir/User.cpp.obj: F:/NewCampusExpress/src/core/Us
   E:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/swprintf.inl \
   E:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   E:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  F:/NewCampusExpress/include/core/User.h
+  F:/NewCampusExpress/include/core/User.h \
+  F:/NewCampusExpress/include/core/UserType.h
 
+
+F:/NewCampusExpress/include/core/UserType.h:
 
 F:/NewCampusExpress/include/core/User.h:
 

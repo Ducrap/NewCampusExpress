@@ -55,4 +55,6 @@ public:
 // 为Package特化
 template class AVLTree<Package>;
 
+extern template class AVLTree<Package>;
+
 #endif // AVLTREE_H

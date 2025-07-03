@@ -753,4 +753,5 @@ src/core/CMakeFiles/CoreModule.dir/User.cpp.obj
  E:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h
  E:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
  F:/NewCampusExpress/include/core/User.h
+ F:/NewCampusExpress/include/core/UserType.h
 

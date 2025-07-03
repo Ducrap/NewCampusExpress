@@ -278,6 +278,45 @@ PickupModule_autogen/fast:
 .PHONY : PickupModule_autogen/fast
 
 #=============================================================================
+# Target rules for targets named StaffModule
+
+# Build rule for target.
+StaffModule: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StaffModule
+.PHONY : StaffModule
+
+# fast build rule for target.
+StaffModule/fast:
+	$(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/build
+.PHONY : StaffModule/fast
+
+#=============================================================================
+# Target rules for targets named StaffModule_autogen_timestamp_deps
+
+# Build rule for target.
+StaffModule_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StaffModule_autogen_timestamp_deps
+.PHONY : StaffModule_autogen_timestamp_deps
+
+# fast build rule for target.
+StaffModule_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule_autogen_timestamp_deps.dir\build.make src/staff/CMakeFiles/StaffModule_autogen_timestamp_deps.dir/build
+.PHONY : StaffModule_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named StaffModule_autogen
+
+# Build rule for target.
+StaffModule_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StaffModule_autogen
+.PHONY : StaffModule_autogen
+
+# fast build rule for target.
+StaffModule_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule_autogen.dir\build.make src/staff/CMakeFiles/StaffModule_autogen.dir/build
+.PHONY : StaffModule_autogen/fast
+
+#=============================================================================
 # Target rules for targets named GuiModule
 
 # Build rule for target.
@@ -340,54 +379,6 @@ CampusExpress_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CampusExpress.dir\build.make CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.s
 .PHONY : CampusExpress_autogen/mocs_compilation.cpp.s
 
-qrc_icons.obj: qrc_icons.cpp.obj
-.PHONY : qrc_icons.obj
-
-# target to build an object file
-qrc_icons.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CampusExpress.dir\build.make CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj
-.PHONY : qrc_icons.cpp.obj
-
-qrc_icons.i: qrc_icons.cpp.i
-.PHONY : qrc_icons.i
-
-# target to preprocess a source file
-qrc_icons.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CampusExpress.dir\build.make CMakeFiles/CampusExpress.dir/qrc_icons.cpp.i
-.PHONY : qrc_icons.cpp.i
-
-qrc_icons.s: qrc_icons.cpp.s
-.PHONY : qrc_icons.s
-
-# target to generate assembly for a file
-qrc_icons.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CampusExpress.dir\build.make CMakeFiles/CampusExpress.dir/qrc_icons.cpp.s
-.PHONY : qrc_icons.cpp.s
-
-qrc_styles.obj: qrc_styles.cpp.obj
-.PHONY : qrc_styles.obj
-
-# target to build an object file
-qrc_styles.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CampusExpress.dir\build.make CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj
-.PHONY : qrc_styles.cpp.obj
-
-qrc_styles.i: qrc_styles.cpp.i
-.PHONY : qrc_styles.i
-
-# target to preprocess a source file
-qrc_styles.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CampusExpress.dir\build.make CMakeFiles/CampusExpress.dir/qrc_styles.cpp.i
-.PHONY : qrc_styles.cpp.i
-
-qrc_styles.s: qrc_styles.cpp.s
-.PHONY : qrc_styles.s
-
-# target to generate assembly for a file
-qrc_styles.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CampusExpress.dir\build.make CMakeFiles/CampusExpress.dir/qrc_styles.cpp.s
-.PHONY : qrc_styles.cpp.s
-
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -432,19 +423,16 @@ help:
 	@echo ... GuiModule_autogen_timestamp_deps
 	@echo ... PickupModule_autogen
 	@echo ... PickupModule_autogen_timestamp_deps
+	@echo ... StaffModule_autogen
+	@echo ... StaffModule_autogen_timestamp_deps
 	@echo ... CampusExpress
 	@echo ... CoreModule
 	@echo ... GuiModule
 	@echo ... PickupModule
+	@echo ... StaffModule
 	@echo ... CampusExpress_autogen/mocs_compilation.obj
 	@echo ... CampusExpress_autogen/mocs_compilation.i
 	@echo ... CampusExpress_autogen/mocs_compilation.s
-	@echo ... qrc_icons.obj
-	@echo ... qrc_icons.i
-	@echo ... qrc_icons.s
-	@echo ... qrc_styles.obj
-	@echo ... qrc_styles.i
-	@echo ... qrc_styles.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

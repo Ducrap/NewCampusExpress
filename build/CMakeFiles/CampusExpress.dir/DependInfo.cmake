@@ -9,8 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "F:/NewCampusExpress/build/CampusExpress_autogen/mocs_compilation.cpp" "CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/CampusExpress.dir/CampusExpress_autogen/mocs_compilation.cpp.obj.d"
-  "F:/NewCampusExpress/build/qrc_icons.cpp" "CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj" "gcc" "CMakeFiles/CampusExpress.dir/qrc_icons.cpp.obj.d"
-  "F:/NewCampusExpress/build/qrc_styles.cpp" "CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj" "gcc" "CMakeFiles/CampusExpress.dir/qrc_styles.cpp.obj.d"
   "F:/NewCampusExpress/src/main.cpp" "CMakeFiles/CampusExpress.dir/src/main.cpp.obj" "gcc" "CMakeFiles/CampusExpress.dir/src/main.cpp.obj.d"
   )
 

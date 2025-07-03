@@ -160,6 +160,144 @@ depend:
 	cd /d F:\NewCampusExpress\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/staff/CMakeFiles/StaffModule.dir/rule:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/staff/CMakeFiles/StaffModule.dir/rule
+.PHONY : src/staff/CMakeFiles/StaffModule.dir/rule
+
+# Convenience name for target.
+StaffModule: src/staff/CMakeFiles/StaffModule.dir/rule
+.PHONY : StaffModule
+
+# fast build rule for target.
+StaffModule/fast:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/build
+.PHONY : StaffModule/fast
+
+# Convenience name for target.
+src/staff/CMakeFiles/StaffModule_autogen_timestamp_deps.dir/rule:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/staff/CMakeFiles/StaffModule_autogen_timestamp_deps.dir/rule
+.PHONY : src/staff/CMakeFiles/StaffModule_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+StaffModule_autogen_timestamp_deps: src/staff/CMakeFiles/StaffModule_autogen_timestamp_deps.dir/rule
+.PHONY : StaffModule_autogen_timestamp_deps
+
+# fast build rule for target.
+StaffModule_autogen_timestamp_deps/fast:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule_autogen_timestamp_deps.dir\build.make src/staff/CMakeFiles/StaffModule_autogen_timestamp_deps.dir/build
+.PHONY : StaffModule_autogen_timestamp_deps/fast
+
+# Convenience name for target.
+src/staff/CMakeFiles/StaffModule_autogen.dir/rule:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/staff/CMakeFiles/StaffModule_autogen.dir/rule
+.PHONY : src/staff/CMakeFiles/StaffModule_autogen.dir/rule
+
+# Convenience name for target.
+StaffModule_autogen: src/staff/CMakeFiles/StaffModule_autogen.dir/rule
+.PHONY : StaffModule_autogen
+
+# fast build rule for target.
+StaffModule_autogen/fast:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule_autogen.dir\build.make src/staff/CMakeFiles/StaffModule_autogen.dir/build
+.PHONY : StaffModule_autogen/fast
+
+PackageManager.obj: PackageManager.cpp.obj
+.PHONY : PackageManager.obj
+
+# target to build an object file
+PackageManager.cpp.obj:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/PackageManager.cpp.obj
+.PHONY : PackageManager.cpp.obj
+
+PackageManager.i: PackageManager.cpp.i
+.PHONY : PackageManager.i
+
+# target to preprocess a source file
+PackageManager.cpp.i:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/PackageManager.cpp.i
+.PHONY : PackageManager.cpp.i
+
+PackageManager.s: PackageManager.cpp.s
+.PHONY : PackageManager.s
+
+# target to generate assembly for a file
+PackageManager.cpp.s:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/PackageManager.cpp.s
+.PHONY : PackageManager.cpp.s
+
+StaffModule_autogen/mocs_compilation.obj: StaffModule_autogen/mocs_compilation.cpp.obj
+.PHONY : StaffModule_autogen/mocs_compilation.obj
+
+# target to build an object file
+StaffModule_autogen/mocs_compilation.cpp.obj:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/StaffModule_autogen/mocs_compilation.cpp.obj
+.PHONY : StaffModule_autogen/mocs_compilation.cpp.obj
+
+StaffModule_autogen/mocs_compilation.i: StaffModule_autogen/mocs_compilation.cpp.i
+.PHONY : StaffModule_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+StaffModule_autogen/mocs_compilation.cpp.i:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/StaffModule_autogen/mocs_compilation.cpp.i
+.PHONY : StaffModule_autogen/mocs_compilation.cpp.i
+
+StaffModule_autogen/mocs_compilation.s: StaffModule_autogen/mocs_compilation.cpp.s
+.PHONY : StaffModule_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+StaffModule_autogen/mocs_compilation.cpp.s:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/StaffModule_autogen/mocs_compilation.cpp.s
+.PHONY : StaffModule_autogen/mocs_compilation.cpp.s
+
+StaffService.obj: StaffService.cpp.obj
+.PHONY : StaffService.obj
+
+# target to build an object file
+StaffService.cpp.obj:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/StaffService.cpp.obj
+.PHONY : StaffService.cpp.obj
+
+StaffService.i: StaffService.cpp.i
+.PHONY : StaffService.i
+
+# target to preprocess a source file
+StaffService.cpp.i:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/StaffService.cpp.i
+.PHONY : StaffService.cpp.i
+
+StaffService.s: StaffService.cpp.s
+.PHONY : StaffService.s
+
+# target to generate assembly for a file
+StaffService.cpp.s:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/StaffService.cpp.s
+.PHONY : StaffService.cpp.s
+
+UserManager.obj: UserManager.cpp.obj
+.PHONY : UserManager.obj
+
+# target to build an object file
+UserManager.cpp.obj:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/UserManager.cpp.obj
+.PHONY : UserManager.cpp.obj
+
+UserManager.i: UserManager.cpp.i
+.PHONY : UserManager.i
+
+# target to preprocess a source file
+UserManager.cpp.i:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/UserManager.cpp.i
+.PHONY : UserManager.cpp.i
+
+UserManager.s: UserManager.cpp.s
+.PHONY : UserManager.s
+
+# target to generate assembly for a file
+UserManager.cpp.s:
+	cd /d F:\NewCampusExpress\build && $(MAKE) $(MAKESILENT) -f src\staff\CMakeFiles\StaffModule.dir\build.make src/staff/CMakeFiles/StaffModule.dir/UserManager.cpp.s
+.PHONY : UserManager.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -172,6 +310,21 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... StaffModule_autogen
+	@echo ... StaffModule_autogen_timestamp_deps
+	@echo ... StaffModule
+	@echo ... PackageManager.obj
+	@echo ... PackageManager.i
+	@echo ... PackageManager.s
+	@echo ... StaffModule_autogen/mocs_compilation.obj
+	@echo ... StaffModule_autogen/mocs_compilation.i
+	@echo ... StaffModule_autogen/mocs_compilation.s
+	@echo ... StaffService.obj
+	@echo ... StaffService.i
+	@echo ... StaffService.s
+	@echo ... UserManager.obj
+	@echo ... UserManager.i
+	@echo ... UserManager.s
 .PHONY : help
 
 

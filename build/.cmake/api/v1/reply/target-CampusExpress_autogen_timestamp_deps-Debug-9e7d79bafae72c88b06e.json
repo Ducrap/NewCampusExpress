@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "CoreModule::@0618756b1ff51bca1a0e"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "PickupModule::@77c1efa2f5e0269b2c76"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "StaffModule::@2eb7ab0efcc53a47b969"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "GuiModule::@7675e61a69a6135e3026"
+		}
+	],
+	"id" : "CampusExpress_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "CampusExpress_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

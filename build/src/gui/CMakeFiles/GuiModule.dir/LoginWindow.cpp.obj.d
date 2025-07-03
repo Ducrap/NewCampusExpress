@@ -456,6 +456,7 @@ src/gui/CMakeFiles/GuiModule.dir/LoginWindow.cpp.obj: \
  E:/Qt/6.9.1/mingw_64/include/QtCore/qeventloop.h \
  E:/Qt/6.9.1/mingw_64/include/QtCore/qdeadlinetimer.h \
  E:/Qt/6.9.1/mingw_64/include/QtCore/qelapsedtimer.h \
+ F:/NewCampusExpress/include/core/UserType.h \
  E:/Qt/6.9.1/mingw_64/include/QtWidgets/QVBoxLayout \
  E:/Qt/6.9.1/mingw_64/include/QtWidgets/qboxlayout.h \
  E:/Qt/6.9.1/mingw_64/include/QtWidgets/qlayout.h \

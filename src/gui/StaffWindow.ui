@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StaffWindow</class>
+ <widget class="QMainWindow" name="StaffWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>校园快递驿站 - 工作人员界面</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <widget class="QWidget" name="packageTab">
+       <attribute name="title">
+        <string>快递管理</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="packageGroup">
+          <property name="title">
+           <string>快递操作</string>
+          </property>
+          <layout class="QFormLayout" name="formLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>快递单号:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="pkgTrackingEdit"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>收件人手机:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="pkgPhoneEdit"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>货架位置:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="pkgShelfEdit"/>
+           </item>
+           <item row="3" column="1">
+            <widget class="QCheckBox" name="pkgUrgentCheck">
+             <property name="text">
+              <string>急件</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0" colspan="2">
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QPushButton" name="pkgAddButton">
+               <property name="text">
+                <string>添加快递</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pkgUpdateButton">
+               <property name="text">
+                <string>更新信息</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pkgDeleteButton">
+               <property name="text">
+                <string>删除快递</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="pkgTable">
+          <column>
+           <property name="text">
+            <string>快递单号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>收件人</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>货架位置</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>是否急件</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>状态</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>到达时间</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="userTab">
+       <attribute name="title">
+        <string>用户管理</string>
+       </attribute>
+       <!-- 类似快递管理的布局，包含用户操作表格 -->
+      </widget>
+      <widget class="QWidget" name="statsTab">
+       <attribute name="title">
+        <string>系统统计</string>
+       </attribute>
+       <!-- 统计信息显示 -->
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
