@@ -40,6 +40,13 @@ set_target_properties(MySQL::MySQL PROPERTIES
     IMPORTED_LOCATION "${MYSQL_CONNECTOR_DIR}/lib64/mysqlcppconn-10-vs14.dll"
 )
 
+include_directories(
+    ${PROJECT_SOURCE_DIR}/include
+    ${PROJECT_SOURCE_DIR}/include/gui
+    ${PROJECT_SOURCE_DIR}/include/staff
+    E:/Qt/6.9.1/mingw_64/include
+)
+
 # 添加子目录（模块化构建）
 add_subdirectory(src/core)
 add_subdirectory(src/pickup)  

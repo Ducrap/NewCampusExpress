@@ -20,7 +20,8 @@
 			"include",
 			"find_package",
 			"find_dependency",
-			"_qt_internal_find_qt_dependencies"
+			"_qt_internal_find_qt_dependencies",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -46,19 +47,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 50,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 92,
+				"line" : 99,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 67,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
@@ -202,6 +203,12 @@
 				"file" : 11,
 				"line" : 61,
 				"parent" : 29
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
 			}
 		]
 	},
@@ -286,6 +293,18 @@
 					"path" : "F:/NewCampusExpress/build/CampusExpress_autogen/include"
 				},
 				{
+					"backtrace" : 31,
+					"path" : "F:/NewCampusExpress/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "F:/NewCampusExpress/include/gui"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "F:/NewCampusExpress/include/staff"
+				},
+				{
 					"backtrace" : 3,
 					"path" : "F:/NewCampusExpress/src/core/../../include/core"
 				},
@@ -298,6 +317,11 @@
 					"path" : "F:/NewCampusExpress/src/gui/../../include/gui"
 				},
 				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "E:/Qt/6.9.1/mingw_64/include"
+				},
+				{
 					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "D:/MySQL/MySQL Connector C++ 9.3/include"
@@ -306,11 +330,6 @@
 					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "E:/Qt/6.9.1/mingw_64/include/QtCore"
-				},
-				{
-					"backtrace" : 3,
-					"isSystem" : true,
-					"path" : "E:/Qt/6.9.1/mingw_64/include"
 				},
 				{
 					"backtrace" : 3,
@@ -364,11 +383,14 @@
 	[
 		{
 			"backtrace" : 3,
-			"id" : "PickupModule::@77c1efa2f5e0269b2c76"
+			"id" : "CoreModule::@0618756b1ff51bca1a0e"
 		},
 		{
 			"backtrace" : 3,
-			"id" : "CoreModule::@0618756b1ff51bca1a0e"
+			"id" : "PickupModule::@77c1efa2f5e0269b2c76"
+		},
+		{
+			"id" : "CampusExpress_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 3,
@@ -377,9 +399,6 @@
 		{
 			"backtrace" : 0,
 			"id" : "CampusExpress_autogen::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "CampusExpress_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "CampusExpress::@6890427a1f51a3e7e1df",

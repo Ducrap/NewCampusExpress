@@ -1,0 +1,8 @@
+CoreModule_autogen/timestamp: \
+	F:/NewCampusExpress/src/core/AVLTree.cpp \
+	F:/NewCampusExpress/src/core/CMakeLists.txt \
+	F:/NewCampusExpress/src/core/Config.cpp \
+	F:/NewCampusExpress/src/core/DatabaseConnector.cpp \
+	F:/NewCampusExpress/src/core/Package.cpp \
+	F:/NewCampusExpress/src/core/User.cpp \
+	D:/mysy32/mingw64/bin/cmake.exe

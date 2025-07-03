@@ -13,11 +13,13 @@
 		[
 			"add_library",
 			"target_link_libraries",
+			"include_directories",
 			"target_include_directories"
 		],
 		"files" : 
 		[
-			"src/gui/CMakeLists.txt"
+			"src/gui/CMakeLists.txt",
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -37,7 +39,16 @@
 				"parent" : 0
 			},
 			{
+				"file" : 1
+			},
+			{
 				"command" : 2,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
 				"file" : 0,
 				"line" : 9,
 				"parent" : 0
@@ -109,7 +120,19 @@
 					"path" : "F:/NewCampusExpress/build/src/gui/GuiModule_autogen/include"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
+					"path" : "F:/NewCampusExpress/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "F:/NewCampusExpress/include/gui"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "F:/NewCampusExpress/include/staff"
+				},
+				{
+					"backtrace" : 5,
 					"path" : "F:/NewCampusExpress/src/gui/../../include/gui"
 				},
 				{
@@ -125,14 +148,14 @@
 					"path" : "F:/NewCampusExpress/src/pickup/../../include/pickup"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"isSystem" : true,
-					"path" : "E:/Qt/6.9.1/mingw_64/include/QtWidgets"
+					"path" : "E:/Qt/6.9.1/mingw_64/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "E:/Qt/6.9.1/mingw_64/include"
+					"path" : "E:/Qt/6.9.1/mingw_64/include/QtWidgets"
 				},
 				{
 					"backtrace" : 2,
@@ -174,11 +197,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "PickupModule::@77c1efa2f5e0269b2c76"
+			"id" : "CoreModule::@0618756b1ff51bca1a0e"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "CoreModule::@0618756b1ff51bca1a0e"
+			"id" : "PickupModule::@77c1efa2f5e0269b2c76"
 		},
 		{
 			"backtrace" : 0,

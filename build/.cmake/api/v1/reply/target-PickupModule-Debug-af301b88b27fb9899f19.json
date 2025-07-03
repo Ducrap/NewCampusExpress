@@ -13,11 +13,13 @@
 		[
 			"add_library",
 			"target_link_libraries",
+			"include_directories",
 			"target_include_directories"
 		],
 		"files" : 
 		[
-			"src/pickup/CMakeLists.txt"
+			"src/pickup/CMakeLists.txt",
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -37,7 +39,16 @@
 				"parent" : 0
 			},
 			{
+				"file" : 1
+			},
+			{
 				"command" : 2,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
 				"file" : 0,
 				"line" : 8,
 				"parent" : 0
@@ -105,7 +116,19 @@
 					"path" : "F:/NewCampusExpress/build/src/pickup/PickupModule_autogen/include"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
+					"path" : "F:/NewCampusExpress/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "F:/NewCampusExpress/include/gui"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "F:/NewCampusExpress/include/staff"
+				},
+				{
+					"backtrace" : 5,
 					"path" : "F:/NewCampusExpress/src/pickup/../../include/pickup"
 				},
 				{
@@ -117,14 +140,14 @@
 					"path" : "D:/MySQL/MySQL Connector C++ 9.3/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"isSystem" : true,
-					"path" : "E:/Qt/6.9.1/mingw_64/include/QtCore"
+					"path" : "E:/Qt/6.9.1/mingw_64/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "E:/Qt/6.9.1/mingw_64/include"
+					"path" : "E:/Qt/6.9.1/mingw_64/include/QtCore"
 				},
 				{
 					"backtrace" : 2,

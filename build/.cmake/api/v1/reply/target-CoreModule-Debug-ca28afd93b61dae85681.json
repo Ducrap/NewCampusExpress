@@ -13,11 +13,13 @@
 		[
 			"add_library",
 			"target_link_libraries",
+			"include_directories",
 			"target_include_directories"
 		],
 		"files" : 
 		[
-			"src/core/CMakeLists.txt"
+			"src/core/CMakeLists.txt",
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -37,7 +39,16 @@
 				"parent" : 0
 			},
 			{
+				"file" : 1
+			},
+			{
 				"command" : 2,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
 				"file" : 0,
 				"line" : 10,
 				"parent" : 0
@@ -105,11 +116,28 @@
 					"path" : "F:/NewCampusExpress/build/src/core/CoreModule_autogen/include"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
+					"path" : "F:/NewCampusExpress/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "F:/NewCampusExpress/include/gui"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "F:/NewCampusExpress/include/staff"
+				},
+				{
+					"backtrace" : 5,
 					"path" : "F:/NewCampusExpress/src/core/../../include/core"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "E:/Qt/6.9.1/mingw_64/include"
+				},
+				{
+					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "D:/MySQL/MySQL Connector C++ 9.3/include"
 				},
@@ -117,11 +145,6 @@
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "E:/Qt/6.9.1/mingw_64/include/QtCore"
-				},
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "E:/Qt/6.9.1/mingw_64/include"
 				},
 				{
 					"backtrace" : 2,
@@ -158,11 +181,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "CoreModule_autogen_timestamp_deps::@0618756b1ff51bca1a0e"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "CoreModule_autogen::@0618756b1ff51bca1a0e"
+		},
+		{
+			"id" : "CoreModule_autogen_timestamp_deps::@0618756b1ff51bca1a0e"
 		}
 	],
 	"id" : "CoreModule::@0618756b1ff51bca1a0e",

@@ -180,11 +180,11 @@ src/staff/clean:
 # Target rules for target CMakeFiles/CampusExpress.dir
 
 # All Build rule for target.
-CMakeFiles/CampusExpress.dir/all: src/pickup/CMakeFiles/PickupModule.dir/all
 CMakeFiles/CampusExpress.dir/all: src/core/CMakeFiles/CoreModule.dir/all
+CMakeFiles/CampusExpress.dir/all: src/pickup/CMakeFiles/PickupModule.dir/all
+CMakeFiles/CampusExpress.dir/all: CMakeFiles/CampusExpress_autogen_timestamp_deps.dir/all
 CMakeFiles/CampusExpress.dir/all: src/gui/CMakeFiles/GuiModule.dir/all
 CMakeFiles/CampusExpress.dir/all: CMakeFiles/CampusExpress_autogen.dir/all
-CMakeFiles/CampusExpress.dir/all: CMakeFiles/CampusExpress_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CampusExpress.dir\build.make CMakeFiles/CampusExpress.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CampusExpress.dir\build.make CMakeFiles/CampusExpress.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=1,2,3 "Built target CampusExpress"
@@ -216,8 +216,8 @@ CMakeFiles/CampusExpress.dir/clean:
 # Target rules for target CMakeFiles/CampusExpress_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/CampusExpress_autogen_timestamp_deps.dir/all: src/pickup/CMakeFiles/PickupModule.dir/all
 CMakeFiles/CampusExpress_autogen_timestamp_deps.dir/all: src/core/CMakeFiles/CoreModule.dir/all
+CMakeFiles/CampusExpress_autogen_timestamp_deps.dir/all: src/pickup/CMakeFiles/PickupModule.dir/all
 CMakeFiles/CampusExpress_autogen_timestamp_deps.dir/all: src/gui/CMakeFiles/GuiModule.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CampusExpress_autogen_timestamp_deps.dir\build.make CMakeFiles/CampusExpress_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CampusExpress_autogen_timestamp_deps.dir\build.make CMakeFiles/CampusExpress_autogen_timestamp_deps.dir/build
@@ -282,8 +282,8 @@ CMakeFiles/CampusExpress_autogen.dir/clean:
 # Target rules for target src/core/CMakeFiles/CoreModule.dir
 
 # All Build rule for target.
-src/core/CMakeFiles/CoreModule.dir/all: src/core/CMakeFiles/CoreModule_autogen_timestamp_deps.dir/all
 src/core/CMakeFiles/CoreModule.dir/all: src/core/CMakeFiles/CoreModule_autogen.dir/all
+src/core/CMakeFiles/CoreModule.dir/all: src/core/CMakeFiles/CoreModule_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f src\core\CMakeFiles\CoreModule.dir\build.make src/core/CMakeFiles/CoreModule.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\core\CMakeFiles\CoreModule.dir\build.make src/core/CMakeFiles/CoreModule.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num=5,6,7,8,9,10,11 "Built target CoreModule"
@@ -477,8 +477,8 @@ src/pickup/CMakeFiles/PickupModule_autogen.dir/clean:
 # Target rules for target src/gui/CMakeFiles/GuiModule.dir
 
 # All Build rule for target.
-src/gui/CMakeFiles/GuiModule.dir/all: src/pickup/CMakeFiles/PickupModule.dir/all
 src/gui/CMakeFiles/GuiModule.dir/all: src/core/CMakeFiles/CoreModule.dir/all
+src/gui/CMakeFiles/GuiModule.dir/all: src/pickup/CMakeFiles/PickupModule.dir/all
 src/gui/CMakeFiles/GuiModule.dir/all: src/gui/CMakeFiles/GuiModule_autogen.dir/all
 src/gui/CMakeFiles/GuiModule.dir/all: src/gui/CMakeFiles/GuiModule_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f src\gui\CMakeFiles\GuiModule.dir\build.make src/gui/CMakeFiles/GuiModule.dir/depend
@@ -512,8 +512,8 @@ src/gui/CMakeFiles/GuiModule.dir/clean:
 # Target rules for target src/gui/CMakeFiles/GuiModule_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-src/gui/CMakeFiles/GuiModule_autogen_timestamp_deps.dir/all: src/pickup/CMakeFiles/PickupModule.dir/all
 src/gui/CMakeFiles/GuiModule_autogen_timestamp_deps.dir/all: src/core/CMakeFiles/CoreModule.dir/all
+src/gui/CMakeFiles/GuiModule_autogen_timestamp_deps.dir/all: src/pickup/CMakeFiles/PickupModule.dir/all
 	$(MAKE) $(MAKESILENT) -f src\gui\CMakeFiles\GuiModule_autogen_timestamp_deps.dir\build.make src/gui/CMakeFiles/GuiModule_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\gui\CMakeFiles\GuiModule_autogen_timestamp_deps.dir\build.make src/gui/CMakeFiles/GuiModule_autogen_timestamp_deps.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\NewCampusExpress\build\CMakeFiles --progress-num= "Built target GuiModule_autogen_timestamp_deps"

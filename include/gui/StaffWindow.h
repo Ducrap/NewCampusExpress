@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QTabWidget>
-#include "StaffService.h"
+#include "../staff/StaffService.h"
 
 QT_BEGIN_NAMESPACE
 class QLineEdit;
